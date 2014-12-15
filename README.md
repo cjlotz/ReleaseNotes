@@ -1,13 +1,13 @@
-# Release Notes Generator # 
+# Release Notes Generator
 
 Team Foundation Server Release Notes Generator provides a GUI/Command line support to generate Release Notes from the TFS work items identified by a TFS Work Item Query.  Currently the generator supports writing the output in PDF format.  For detailed information on the design goals and how the solution fits together, read through this [blogpost](http://fromthedevtrenches.blogspot.com/2013/04/automatically-generate-tfs-release.html).
 
 
-## User Interface Support ##
+## User Interface Support
 
-![UI](.\images\ReleaseNotesGenerator.png)
+![UI](https://github.com/cjlotz/ReleaseNotes/blob/master/Images/ReleaseNotesGenerator.png)
 
-## Command Line Support ##
+## Command Line Support
 
 Example using a MSBuild target:
  
@@ -48,8 +48,8 @@ Example using a MSBuild target:
 </Target>
 ```
 
-## Example Output ##
+## Example Output
 
-![PDF](.\images\ReleaseNotesGeneratorOutput.png)
+![PDF](https://github.com/cjlotz/ReleaseNotes/blob/master/Images/ReleaseNotesGeneratorOutput.png)
 
   
