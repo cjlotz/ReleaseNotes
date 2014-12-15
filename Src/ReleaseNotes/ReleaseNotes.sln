@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReleaseNotes.Core", "ReleaseNotes.Core\ReleaseNotes.Core.csproj", "{13C07547-3B70-45FB-B09E-E34E33DAF8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReleaseNotes.Output.Pdf", "ReleaseNotes.Output.Pdf\ReleaseNotes.Output.Pdf.csproj", "{8A352478-981C-42FA-BD0C-07946F137967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReleaseNotes.TfsTool", "ReleaseNotes.TfsTool\ReleaseNotes.TfsTool.csproj", "{E815CB5F-726A-408E-9F52-B7953C41F3EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{8FF3D400-6A03-492B-8631-6FFD5C2A80AC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F0540496-3276-4FE0-8DCE-A2C58D697A84}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{DFAB92D6-7108-4A8B-9C1B-7298EBB4A496}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Images\ReleaseNotesGenerator.png = ..\..\Images\ReleaseNotesGenerator.png
+		..\..\Images\ReleaseNotesGeneratorOutput.png = ..\..\Images\ReleaseNotesGeneratorOutput.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C07547-3B70-45FB-B09E-E34E33DAF8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C07547-3B70-45FB-B09E-E34E33DAF8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C07547-3B70-45FB-B09E-E34E33DAF8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C07547-3B70-45FB-B09E-E34E33DAF8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A352478-981C-42FA-BD0C-07946F137967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A352478-981C-42FA-BD0C-07946F137967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A352478-981C-42FA-BD0C-07946F137967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A352478-981C-42FA-BD0C-07946F137967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E815CB5F-726A-408E-9F52-B7953C41F3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E815CB5F-726A-408E-9F52-B7953C41F3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E815CB5F-726A-408E-9F52-B7953C41F3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E815CB5F-726A-408E-9F52-B7953C41F3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFAB92D6-7108-4A8B-9C1B-7298EBB4A496} = {8FF3D400-6A03-492B-8631-6FFD5C2A80AC}
+	EndGlobalSection
+EndGlobal
