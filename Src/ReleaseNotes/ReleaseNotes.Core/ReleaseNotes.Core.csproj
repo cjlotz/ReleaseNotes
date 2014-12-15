@@ -35,6 +35,9 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\GlobalAssemblyInfo.cs">
+      <Link>GlobalAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Bookmark.cs" />
     <Compile Include="IReleaseNotesWriter.cs" />
     <Compile Include="IReleaseNotesWriterSettings.cs" />
